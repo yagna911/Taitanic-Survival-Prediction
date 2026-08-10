@@ -11,7 +11,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
-
+# Dataset
 DATA_URL = "https://github.com/YBIFoundation/Dataset/raw/main/Titanic.csv"
 MODEL_DIR = os.path.join(os.path.dirname(__file__), "..", "models")
 METRICS_PATH = os.path.join(os.path.dirname(__file__), "..", "metrics.txt")
